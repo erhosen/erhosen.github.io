@@ -2,127 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Recent Articles</title>
   <id>http://erhosen.github.io/feed.atom</id>
-  <updated>2014-10-16T00:00:00Z</updated>
+  <updated>2014-10-18T00:00:00Z</updated>
   <link href="http://erhosen.github.io/" />
   <link href="http://erhosen.github.io/feed.atom" rel="self" />
   <generator>Werkzeug</generator>
   <entry xml:base="http://erhosen.github.io/feed.atom">
     <title type="text">About me</title>
     <id>http://erhosen.github.io/blog/about/</id>
-    <updated>2014-10-16T00:00:00Z</updated>
-    <published>2014-10-16T00:00:00Z</published>
+    <updated>2014-10-18T00:00:00Z</updated>
+    <published>2014-10-18T00:00:00Z</published>
     <link href="http://erhosen.github.io/blog/about/" />
     <author>
       <name>Vladimir Vyazovetskov</name>
     </author>
-    <content type="html">&lt;p&gt;Hi there! My name is bla bla bla and i am from bla.
-Go fuck yourself and read little bit lorem ipsum, bro&lt;/p&gt;
-&lt;p&gt;Quassasque abstulit Thracum pater una a Priamidas tergo erat: conde manerem
-Capitolia, quisque paratur. E iaculo templis indicat pudor si fusus tamen canam
-&lt;strong&gt;vivo nomen viribus&lt;/strong&gt;: fera nostri se
-&lt;a href=&quot;http://www.thesecretofinvisibility.com/&quot;&gt;moenia&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Suadeat iustius siccaverat iuvenis Proetidas, foret ingenium cetera et. Meruere
-et est voco &lt;em&gt;pictasque init&lt;/em&gt;. Suo videtur vagi nunc levat! Obice moriorque
-caelum; qua fuit: aede fama Hyacinthon mansit, Euboico aetate Aeacon patrii
-nullis.&lt;/p&gt;
-&lt;p&gt;At summa venenum clauduntur devicto quae comitant nomine
-&lt;a href=&quot;http://jaspervdj.be/&quot;&gt;terram&lt;/a&gt;, admonitu lumen, liquitur ad ferax centum
-teretes. Iugulum quacumque nostrasque verba vulneret patrio, tumulum, ibi quod
-plura hausit, ubi quam, sed potentia? Nautae vindicat infamia siquis ut &lt;em&gt;e
-colunt&lt;/em&gt; amore umbras et tandem, at latuit tenuit mora cognataque disque. Durus
-pectora se victor sustinet notas viridique deusve &lt;em&gt;non&lt;/em&gt; gravitas triones peto.&lt;/p&gt;</content>
-  </entry>
-  <entry xml:base="http://erhosen.github.io/feed.atom">
-    <title type="text">Lorem Markdownum</title>
-    <id>http://erhosen.github.io/blog/LoremMarkdownum/</id>
-    <updated>2014-10-15T00:00:00Z</updated>
-    <published>2014-10-15T00:00:00Z</published>
-    <link href="http://erhosen.github.io/blog/LoremMarkdownum/" />
-    <author>
-      <name>Vladimir Vyazovetskov</name>
-    </author>
-    <content type="html">&lt;h1&gt;Supersunt doloris stagna&lt;/h1&gt;
-&lt;h2&gt;Precibus gentis Fortuna lapis novus nec tamen&lt;/h2&gt;
-&lt;p&gt;Lorem markdownum urbes contigerant seque hortatibus luctus &lt;strong&gt;fera&lt;/strong&gt; purpureum
-obsequio tantum sub. Clamore tamen thalamumque aether manus frustra; et tenet,
-quod sibila. Fortuna diffugiunt unum mactata terrae visa sororis, Elin sit aetas
-secum forma, quas nocuere! Nec edidici servat &lt;em&gt;quos flammas&lt;/em&gt;, tanti in erant
-contento potuisse ingentem Corythi adpositis spargit arma terras, secura. Sua
-desint, inquit et arserat hominum, illa comas corpore.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Vanis undis&lt;/li&gt;
-&lt;li&gt;Vertere vincloque lumen plura sacra aratri vagantem&lt;/li&gt;
-&lt;li&gt;Accipitrem illud faveas te illum adsiduae illis&lt;/li&gt;
-&lt;li&gt;Misereri tuas sibi&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Ramis orbem vocabere Erectheus rite vipereasque tenebras&lt;/h2&gt;
-&lt;p&gt;Fortiter &lt;a href=&quot;http://www.metafilter.com/&quot;&gt;in&lt;/a&gt; subiectaque semper. Apollinei et
-gemino femina tota adsueto bellica pater se et celebres qui tibia, deserere?
-Quoque amor pecoris arbore, mentem etiamnum, quod &lt;em&gt;dum&lt;/em&gt; exponimur magni capillos
-&lt;em&gt;iterata manebunt&lt;/em&gt; Pylius genialis Trachinius deciperetur. Quique solvit gravis
-cervixque et sive toto notae novitate inclusa perire, sic patria expetit urguet,
-iste coniugiumne. Monstrum &lt;strong&gt;accedere at annis&lt;/strong&gt; cruciata flamine festinat armis
-corpore: unda nisi umquam Antiphataeque mens pharetratus natae plerumque.&lt;/p&gt;
-&lt;div class=&quot;codehilite&quot;&gt;&lt;pre&gt;var megabit = ibmWpaNui;
-if (bccModemTweak(xp)) {
-    contextualPdfSymbolic = host_systray_null;
-} else {
-    delMebibyte = tweak;
-}
-netmaskNetmaskMca.dfs(1 + file_num.megapixel_archive_bps.pci_reciprocal(
-        ppl_graphics_snmp, itSystem), expressBccMemory, 3);
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;h2&gt;Non stratum proterva vidit&lt;/h2&gt;
-&lt;p&gt;Quique pigetque murum, tunc. Vetusque effuge; fama litore igne, nosces domui
-Ulixem, feras. Arisque aut quod quoque faciendus alto profugos. Violas nunc
-castra nisi quod struxerit et quam domusque a repetam inpia deditque carius
-succincta &lt;a href=&quot;http://www.uselessaccount.com/&quot;&gt;et&lt;/a&gt; clauso magis. Thracia ter semper
-ex &lt;strong&gt;nomen utque rexit&lt;/strong&gt; se pars, spectasse.&lt;/p&gt;
-&lt;p&gt;Gravis per sint quis est vir quod Sybarin. Nec huic coniunx vivere exstitit
-demptum. Marmore Bisaltida Aesaris.&lt;/p&gt;
-&lt;h2&gt;Consolor nactusque moenia&lt;/h2&gt;
-&lt;p&gt;Quem ipsa et casus comae modo petens, cum obrue. Utilis absumitur nymphe
-formosior dubitatis, &lt;em&gt;duos eripitur&lt;/em&gt; silvis tractaque erravit nomenque animalia
-gurgite Amor &lt;strong&gt;toto&lt;/strong&gt; armiferae pleni, in. Quo placuerunt optavit creatus
-perque, urbes &lt;a href=&quot;http://www.lipsum.com/&quot;&gt;excessere visum bacis&lt;/a&gt;, ait isque. Deae
-funere Telamonius invenerit sensit inponere nymphae decipere, suo considere
-utere parensque impediebat solos.&lt;/p&gt;
-&lt;div class=&quot;codehilite&quot;&gt;&lt;pre&gt;if (text(accessAccessNumber, 269355)) {
-    vaporware(1, hdtv_peopleware + dynamic);
-    transistor(cross_responsive, statusLag + nui_ip_window,
-            trackball_power.telnetThread(packRaw, del_tftp_process));
-} else {
-    mouse_browser_ajax += -3 - 5 + dsl_hot_card;
-    cyberbullying_archive /= engine;
-}
-if (ipod - -5 &amp;lt;= digital_motion) {
-    tweak.protocolNtfsIde = core(personalPropertyIscsi) / torrentPppoe;
-}
-optical.clientListserv += publishing_station;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Resedit conataque clamare verae, ubi novum tergaque posita: non ne, cuncta.
-Adversas mecum caeli congestos ramos quinquennia, infelix! Levibus meumque in
-Solis in partem suadet. Ut ut, fide reges pater Danaen
-&lt;a href=&quot;http://www.reddit.com/r/haskell&quot;&gt;stipitis&lt;/a&gt;, et illic. Fuit aeternas, optabile
-crescente iuvat.&lt;/p&gt;</content>
-  </entry>
-  <entry xml:base="http://erhosen.github.io/feed.atom">
-    <title type="text">About</title>
-    <id>http://erhosen.github.io/blog/post2/</id>
-    <updated>2014-10-12T00:00:00Z</updated>
-    <published>2014-10-12T00:00:00Z</published>
-    <link href="http://erhosen.github.io/blog/post2/" />
-    <author>
-      <name>Vladimir Vyazovetskov</name>
-    </author>
-    <content type="html">&lt;h1&gt;Hi!&lt;/h1&gt;
-&lt;h3&gt;My name is Vladimir. I am 20 years old, and i learn&lt;/h3&gt;
-&lt;h3&gt;how to create blog generator from Flask on the fly.&lt;/h3&gt;
-&lt;h3&gt;I think success wait for me!&lt;/h3&gt;
-&lt;h2&gt;Good Luck, Vladimir!&lt;/h2&gt;</content>
+    <content type="html">&lt;p&gt;Hi everybody! My name is Vladimir, I am a python back-end developer from Moscow. 
+This is my static blog, where I will write interesting notes about Python, 
+Java and another languages and technologies, also I will post links to cool articles, 
+write my own articles, track my courses progress and many more.&lt;/p&gt;
+&lt;p&gt;You can follow me on:&lt;/p&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My twitter&quot;&gt;twitter.com/erho_sen&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://www.facebook.com/jessusy&quot; title=&quot;My Facebook&quot;&gt;facebook.com/jessusy&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My Habrahabr&quot;&gt;habrahabr.ru/users/erhosen/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;http://www.lastfm.ru/user/Erho_Sen&quot; title=&quot;My LastFM&quot;&gt;lastfm.ru/user/Erho_Sen&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;Or just email me on &lt;a href=&quot;mailto:'erhosen@gmail.com'&quot; title=&quot;My emailrhose@gmail.com&quot;&gt;erhose@gmail.com&lt;/a&gt;&lt;/h4&gt;
+&lt;h3&gt;* [My Projects]&lt;/h3&gt;
+&lt;h3&gt;* [My Courses]&lt;/h3&gt;
+&lt;h3&gt;* [My CV]&lt;/h3&gt;</content>
   </entry>
 </feed>

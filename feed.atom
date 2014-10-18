@@ -15,16 +15,16 @@
     <author>
       <name>Vladimir Vyazovetskov</name>
     </author>
-    <content type="html">&lt;p&gt;Hi everybody! My name is Vladimir, I am a python back-end developer from Moscow. 
+    <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hi everybody! My name is Vladimir, I am a python back-end developer from Moscow. 
 This is my static blog, where I will write interesting notes about Python, 
 Java and another languages and technologies, also I will post links to cool articles, 
 write my own articles, track my courses progress and many more.&lt;/p&gt;
 &lt;p&gt;You can follow me on:&lt;/p&gt;
 &lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My twitter&quot;&gt;twitter.com/erho_sen&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;- &lt;a href=&quot;https://www.facebook.com/jessusy&quot; title=&quot;My Facebook&quot;&gt;facebook.com/jessusy&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My Habrahabr&quot;&gt;habrahabr.ru/users/erhosen/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://habrahabr.ru/users/erhosen/&quot; title=&quot;My Habrahabr&quot;&gt;habrahabr.ru/users/erhosen/&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;- &lt;a href=&quot;http://www.lastfm.ru/user/Erho_Sen&quot; title=&quot;My LastFM&quot;&gt;lastfm.ru/user/Erho_Sen&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;Or just email me on &lt;a href=&quot;mailto:'erhosen@gmail.com'&quot; title=&quot;My emailrhose@gmail.com&quot;&gt;erhose@gmail.com&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;Or just email me on &lt;a href=&quot;mailto:erhosen@gmail.com&quot; title=&quot;My emailrhose@gmail.com&quot;&gt;erhosen@gmail.com&lt;/a&gt;&lt;/h4&gt;
 &lt;h3&gt;* [My Projects]&lt;/h3&gt;
 &lt;h3&gt;* [My Courses]&lt;/h3&gt;
 &lt;h3&gt;* [My CV]&lt;/h3&gt;</content>

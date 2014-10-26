@@ -2,10 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title type="text">Recent Articles</title>
   <id>http://erhosen.github.io/feed.atom</id>
-  <updated>2014-10-18T00:00:00Z</updated>
+  <updated>2014-10-26T00:00:00Z</updated>
   <link href="http://erhosen.github.io/" />
   <link href="http://erhosen.github.io/feed.atom" rel="self" />
   <generator>Werkzeug</generator>
+  <entry xml:base="http://erhosen.github.io/feed.atom">
+    <title type="text">Courses</title>
+    <id>http://erhosen.github.io/blog/courses/</id>
+    <updated>2014-10-26T00:00:00Z</updated>
+    <published>2014-10-26T00:00:00Z</published>
+    <link href="http://erhosen.github.io/blog/courses/" />
+    <author>
+      <name>Vladimir Vyazovetskov</name>
+    </author>
+    <content type="html">&lt;h1&gt;Courses and Certificates&lt;/h1&gt;
+&lt;h3&gt;Successfull accomplishment with Certificate:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/interactivepython&quot;&gt;An Introduction to Interactive Programming in Python&lt;/a&gt; from &lt;strong&gt;Rice University&lt;/strong&gt; &lt;a href=&quot;https://www.coursera.org/maestro/api/certificate/get_certificate?verify-code=F4UPDSEBT3&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/programming1&quot;&gt;Learn to Program: The Fundamentals&lt;/a&gt; from &lt;strong&gt;University of Toronto&lt;/strong&gt; &lt;a href=&quot;https://dl.dropboxusercontent.com/u/75747701/certificates/Learn%20to%20Program-%20The%20Fundamentalspdf.pdf&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.coursera.org/course/webapplications&quot;&gt;Web Application Architectures&lt;/a&gt; from &lt;strong&gt;University of New Mexico&lt;/strong&gt; &lt;a href=&quot;https://dl.dropboxusercontent.com/u/75747701/certificates/Web%20Application%20Architectures.pdf&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/mitx/mitx-6-00-1x-introduction-computer-2841&quot;&gt;6.00.1x Introduction to Computer Science and Programming&lt;/a&gt; from &lt;strong&gt;MIT&lt;/strong&gt; &lt;a href=&quot;https://s3.amazonaws.com/verify.edx.org/downloads/31a67edaa9c441e390a0a4644c0274bf/Certificate.pdf&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/mitx/mitx-6-00-2x-introduction-computational-2836&quot;&gt;6.00.2x Introduction to Computational Thinking and Data Science&lt;/a&gt; from &lt;strong&gt;MIT&lt;/strong&gt; &lt;a href=&quot;https://s3.amazonaws.com/verify.edx.org/downloads/a5087942bf9e4b7d8d200d83e7b503af/Certificate.pdf&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/harvardx/harvardx-cs50x-introduction-computer-1022&quot;&gt;CS50x Introduction to Computer Science&lt;/a&gt; from &lt;strong&gt;Harvard&lt;/strong&gt; &lt;a href=&quot;#&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.edx.org/course/linuxfoundationx/linuxfoundationx-lfs101x-introduction-1621&quot;&gt;LFS101x Introduction to Linux&lt;/a&gt; from &lt;strong&gt;LinuxFoundation&lt;/strong&gt; &lt;a href=&quot;#&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs253&quot;&gt;Web Development&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt; &lt;a href=&quot;https://dl.dropboxusercontent.com/u/75747701/certificates/Web%20Development.pdf&quot; title=&quot;Certificate&quot;&gt;[CERT]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Successful accomplish without Certificate:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud032&quot;&gt;Data Wrangling with MongoDB&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs046&quot;&gt;Intro to Java Programming&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud036&quot;&gt;Programming Foundations with Python&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs258&quot;&gt;Software Testing&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs215&quot;&gt;Intro to Algorithms&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud359&quot;&gt;Intro to Data Science&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs313&quot;&gt;Intro to Theoretical Computer Science&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs259&quot;&gt;Software Debugging&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs258&quot;&gt;Software Testing&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html&quot;&gt;JavaScript Essential Training&lt;/a&gt; from &lt;strong&gt;Lynda&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.lynda.com/Python-tutorials/Code-Clinic-Python/163752-2.html&quot;&gt;Code Clinic: Python&lt;/a&gt; from &lt;strong&gt;Lynda&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/python-fundamentals&quot;&gt;Python Fundamentals&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/python-beyond-basics&quot;&gt;Python - Beyond the Basics&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/description/unit-testing-python&quot;&gt;Unit Testing with Python&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/foundational-flask-creating-your-own-static-blog-generator&quot;&gt;Foundational Flask&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt; &lt;a href=&quot;https://www.evernote.com/shard/s278/nl/35476238/6a35a5a3-98ca-40a9-9cf1-cae0c5faac46/&quot;&gt;[Evernote]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/django-unchained&quot;&gt;Django Unchained&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt; &lt;a href=&quot;https://www.evernote.com/shard/s278/nl/35476238/d83b09e8-cec7-460e-b0e3-b1f0446ee44f/&quot;&gt;[Evernote]&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My &lt;a href=&quot;http://www.codecademy.com/microSlayer24218&quot;&gt;CodeCademy&lt;/a&gt;  Account&lt;/p&gt;
+&lt;p&gt;My &lt;a href=&quot;http://www.checkio.org/user/jessusy/&quot;&gt;Checkio&lt;/a&gt; Account&lt;/p&gt;</content>
+  </entry>
   <entry xml:base="http://erhosen.github.io/feed.atom">
     <title type="text">About me</title>
     <id>http://erhosen.github.io/blog/about/</id>
@@ -20,13 +63,14 @@ This is my static blog, where I will write interesting notes about Python,
 Java and another languages and technologies, also I will post links to cool articles, 
 write my own articles, track my courses progress and many more.&lt;/p&gt;
 &lt;p&gt;You can follow me on:&lt;/p&gt;
-&lt;h4&gt;- &lt;a href=&quot;https://github.com/ErhoSen&quot; title=&quot;My GitHub&quot;&gt;github.com/ErhoSen&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My twitter&quot;&gt;twitter.com/erho_sen&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;- &lt;a href=&quot;https://www.facebook.com/jessusy&quot; title=&quot;My Facebook&quot;&gt;facebook.com/jessusy&lt;/a&gt;&lt;/h4&gt;
-&lt;h4&gt;- &lt;a href=&quot;https://habrahabr.ru/users/erhosen/&quot; title=&quot;My Habrahabr&quot;&gt;habrahabr.ru/users/erhosen/&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://github.com/ErhoSen&quot; title=&quot;My GitHub&quot;&gt;Github&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://twitter.com/erho_sen&quot; title=&quot;My twitter&quot;&gt;Twitter&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://www.facebook.com/jessusy&quot; title=&quot;My Facebook&quot;&gt;Facebook&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://habrahabr.ru/users/erhosen/&quot; title=&quot;My Habrahabr&quot;&gt;Habrahabr&lt;/a&gt;&lt;/h4&gt;
+&lt;h4&gt;- &lt;a href=&quot;https://www.linkedin.com/profile/view?id=252004963&quot; title=&quot;My LinkedIn&quot;&gt;Linkedin&lt;/a&gt;&lt;/h4&gt;
 &lt;h4&gt;Or just email me on &lt;a href=&quot;mailto:erhosen@gmail.com&quot; title=&quot;My emailrhose@gmail.com&quot;&gt;erhosen@gmail.com&lt;/a&gt;&lt;/h4&gt;
 &lt;h3&gt;* [My Projects]&lt;/h3&gt;
-&lt;h3&gt;* [My Courses]&lt;/h3&gt;
+&lt;h3&gt;&lt;a href=&quot;/blog/courses&quot; title=&quot;My Courses and Certificates&quot;&gt;Courses and Certificates&lt;/a&gt;&lt;/h3&gt;
 &lt;h3&gt;* [My CV]&lt;/h3&gt;</content>
   </entry>
 </feed>

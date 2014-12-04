@@ -123,8 +123,8 @@ body>a{ display: none; }
     border-color: #f0f0f0;
     color: #555;
     border-radius: .25em;
-    /*display: inline-block;*/
-    position: absolute;
+    display: inline-block;
+    /*position: fixed;*/
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -132,11 +132,11 @@ body>a{ display: none; }
     border-width: 1px;
     letter-spacing: .15em;
     margin-bottom: .9em;
+    margin-top: 200px;
     padding: 1em .75em;
     text-decoration: none;
     text-transform: uppercase;
     max-width: 16em!important;
-    bottom: 5%;
     left: 23%;
     width: 50%;
 }

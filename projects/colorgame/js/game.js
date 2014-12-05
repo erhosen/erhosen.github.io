@@ -14,8 +14,9 @@ var box;
 var k=9; // Coefficient of change
 var interval;
 var score = 0;
-var pictures = ['pics/be_better.png',
-    'pics/win.jpg'];
+var seconds=30;
+var pictures = ['pics/be_better.gif',
+    'pics/win.gif'];
 
 switchTo5x=true;
 
@@ -87,35 +88,53 @@ function end_game(){
     $('<h1/>', {text:"Your Score: " + score, align:"center"}).appendTo(result);
     $('#share').show();
     result.appendTo(box);
-    box.append('<a href="#" class="btn" id="start-button"> restart </button>');
+    box.append('<a class="btn btn-restart" id="start-button"> restart </button>');
     // reIndent
     k = 9;
     score = 0;
     lvMap = [2, 3, 4, 5, 5, 6, 6, 7, 7, 7, 8, 8, 8, 8, 8, 8, 9];
+    seconds = 30;
     //$('#timer').text("00:30").hide();
 }
 
+function minibox(){
+    var minibox = $("#minibox");
+    var colors = getRandomColorPair();
+    var tile = $('<span/>').css('background-color', colors[0]);
+    var true_tile = $('<span/>', {id:'start-button'}).css('background-color', colors[1]);
+    var true_pos = getRandomInt(0, 3);
+    for(var i=0; i<4; i++){
+        if (i == true_pos){
+            minibox.append(true_tile);
+        } else {
+            minibox.append(tile.clone());
+        }
+    }
+}
+
 $(document).ready(function(){
+    // prepare color screen
+    minibox();
+
     $("#box").on('click', "#start-button", function(){
         $(this).hide();
         var timer = $('#timer');
-        timer.text("00:30");
+        timer.text("00:"+seconds);
 
         interval = setInterval(function() {
-            timer_val = timer.html().split(':');
-            var minutes = parseInt(timer_val[0], 10);
-            var seconds = parseInt(timer_val[1], 10);
+            //timer_val = timer.html().split(':');
+            //var minutes = parseInt(timer_val[0], 10);
             seconds -= 1;
-            if (minutes < 0) return clearInterval(interval);
-            if (minutes < 10 && minutes.length != 2) minutes = '0' + minutes;
-            if (seconds < 0 && minutes != 0) {
-                minutes -= 1;
-                seconds = 59;
-            }
-            else if (seconds < 10 && length.seconds != 2) seconds = '0' + seconds;
-            timer.html(minutes + ':' + seconds);
+            //if (minutes < 0) return clearInterval(interval);
+            //if (minutes < 10 && minutes.length != 2) minutes = '0' + minutes;
+            //if (seconds < 0 && minutes != 0) {
+            //    minutes -= 1;
+            //    seconds = 59;
+            //}
+            if (seconds < 10 && length.time != 2) seconds = '0' + seconds;
+            timer.html("00" + ':' + seconds);
 
-            if (minutes == 0 && seconds == 0){
+            if (seconds == 0){
                 end_game();
                 clearInterval(interval);
             }

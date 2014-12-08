@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    
+    <title>ColorGame </title>
+    <link rel="stylesheet" href="/static/css/post.css">
+
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/static/img/favicon.ico">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/syntax.css">
+
+    <!-- AtomFeed -->
+    <link href="/feed.atom" rel="alternate" title="Recent Changes" type="application/atom+xml">
+
+</head>
+<body>
+    <div id="header">
+        <H1><a style="color: #000000" href="/">Vladimir Vyazovetskov</a></H1>
+        <div id="menu">
+            <a style="color: #000000" href="/blog/about/">about</a> |
+            <a style="color: #000000" href="/blog/projects/">projects</a> |
+            <a style="color: #000000" href="/blog/courses/">courses</a> |
+            <a style="color: #000000" href="/blog/cv/">CV</a>
+        </div>
+    </div>
+
+    
+    <!-- Header -->
+    <div id="header">
+        <h1>ColorGame</h1>
+        
+        <h3 id="date">December 08, 2014</h3>
+    </div>
+
+    <!-- Content -->
+    <div id="content">
+        <p><img alt="enter image description here" class="center" src="http://cs624522.vk.me/v624522884/db12/IivAuY_7I-I.jpg" /></p>
+<p>If you looked into the <a href="http://erhosen.github.io/blog/courses/">course</a> section, you've probably noticed that I take a lot of them regularly. </p>
+<p>On the last weekend, I spend a lot of time to accomplish another one. This is my final project for <a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#.VIW11qSsUcI">Harvard cs50x course</a> - <a href="http://erhosen.github.io/projects/colorgame/"><strong>ColorGame</strong></a>!</p>
+<p><img alt="ColorGame via ErhoSen" class="center" src="http://cs624522.vk.me/v624522884/db0b/Aw7FRb09MhY.jpg" /></p>
+<p>This game has written on JavaScript(using jQuery), CSS and HTML. </p>
+<p><strong>ColorGame</strong> is my first experience in JS game-developing. And if you have any recommendations or suggestions please contact me by <a href="mailto:erhosen@gmail.com">erhosen@gmail.com</a>.</p>
+<p>Core idea of the game i have found on chinese web-site, but i can't find the link on it (strongly sorry!). All code has been written by myself, and sources are available in my <a href="https://github.com/ErhoSen/ColorGame">GitHub repo</a>.</p>
+<h2>Developing</h2>
+<p>All the magic happens in two functions:</p>
+<div class="codehilite"><pre><span class="kd">function</span> <span class="nx">changeColor</span><span class="p">(</span><span class="nx">master</span><span class="p">){</span>
+    <span class="kd">var</span> <span class="nx">max_ind</span> <span class="o">=</span> <span class="nx">master</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nb">Math</span><span class="p">,</span> <span class="nx">master</span><span class="p">));</span>
+    <span class="kd">var</span> <span class="nx">c</span> <span class="o">=</span> <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">];</span>
+    <span class="nx">c</span> <span class="o">+=</span> <span class="nx">k</span><span class="o">*</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">10</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">c</span> <span class="o">&gt;</span> <span class="mi">255</span><span class="p">){</span>
+        <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">]</span> <span class="o">-=</span> <span class="p">(</span><span class="nx">k</span><span class="o">*</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">10</span><span class="p">);</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">]</span> <span class="o">=</span> <span class="nx">c</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="nx">master</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">getRandomColorPair</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">resulted_colors</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+    <span class="c1">//generate random red, green and blue intensity</span>
+    <span class="kd">var</span> <span class="nx">rgb</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+    <span class="nx">rgb</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
+    <span class="nx">rgb</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
+    <span class="nx">rgb</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
+    <span class="nx">resulted_colors</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;rgb(&quot;</span> <span class="o">+</span> <span class="nx">rgb</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span><span class="p">;</span>
+    <span class="nx">resulted_colors</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;rgb(&quot;</span> <span class="o">+</span> <span class="nx">changeColor</span><span class="p">(</span><span class="nx">rgb</span><span class="p">).</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="nx">resulted_colors</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>Logic is simple: we randomly generate a set of 3 numbers, which represents 1 color. Next, we change the biggest number(<em>b_num</em>) by <em>c</em>. </p>
+<div class="codehilite"><pre>If (b_num + c) &gt; 255
+    b_num-=  c
+else:
+    b_num+= c
+</pre></div>
+
+
+<p>The magic number <em>c</em> depends on the current level, and the higher the level, the less the coefficient <em>c</em>.</p>
+<h2>Share</h2>
+<p>Also, you can share a ColorGame link with your friends using buttons at the bottom of the screen. Buttons are provided by <a href="http://sharethis.com">sharethis.com</a></p>
+<p><img alt="enter image description here" class="center" src="http://cs624522.vk.me/v624522884/db19/L07GcyIR2Qs.jpg" /></p>
+<h1><a href="http://erhosen.github.io/projects/colorgame">Have fun!</a></h1>
+    </div>
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-36787518-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+</body>
+</html>

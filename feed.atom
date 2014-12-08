@@ -15,10 +15,10 @@
     <author>
       <name>Vladimir Vyazovetskov</name>
     </author>
-    <content type="html">&lt;p&gt;&lt;img alt=&quot;enter image description here&quot; class=&quot;center&quot; src=&quot;http://cs624522.vk.me/v624522884/db12/IivAuY_7I-I.jpg&quot; /&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;img alt=&quot;enter image description here&quot; class=&quot;center&quot; src=&quot;http://erhosen.github.io/projects/colorgame/pics/game.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;If you looked into the &lt;a href=&quot;http://erhosen.github.io/blog/courses/&quot;&gt;course&lt;/a&gt; section, you've probably noticed that I take a lot of them regularly. &lt;/p&gt;
 &lt;p&gt;On the last weekend, I spend a lot of time to accomplish another one. This is my final project for &lt;a href=&quot;https://www.edx.org/course/introduction-computer-science-harvardx-cs50x#.VIW11qSsUcI&quot;&gt;Harvard cs50x course&lt;/a&gt; - &lt;a href=&quot;http://erhosen.github.io/projects/colorgame/&quot;&gt;&lt;strong&gt;ColorGame&lt;/strong&gt;&lt;/a&gt;!&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;ColorGame via ErhoSen&quot; class=&quot;center&quot; src=&quot;http://cs624522.vk.me/v624522884/db0b/Aw7FRb09MhY.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;ColorGame via ErhoSen&quot; class=&quot;center&quot; src=&quot;http://erhosen.github.io/projects/colorgame/pics/game_large.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;This game has written on JavaScript(using jQuery), CSS and HTML. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;ColorGame&lt;/strong&gt; is my first experience in JS game-developing. And if you have any recommendations or suggestions please contact me by &lt;a href=&quot;mailto:erhosen@gmail.com&quot;&gt;erhosen@gmail.com&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Core idea of the game i have found on chinese web-site, but i can't find the link on it (strongly sorry!). All code has been written by myself, and sources are available in my &lt;a href=&quot;https://github.com/ErhoSen/ColorGame&quot;&gt;GitHub repo&lt;/a&gt;.&lt;/p&gt;
@@ -62,7 +62,7 @@ else:
 &lt;p&gt;The magic number &lt;em&gt;c&lt;/em&gt; depends on the current level, and the higher the level, the less the coefficient &lt;em&gt;c&lt;/em&gt;.&lt;/p&gt;
 &lt;h2&gt;Share&lt;/h2&gt;
 &lt;p&gt;Also, you can share a ColorGame link with your friends using buttons at the bottom of the screen. Buttons are provided by &lt;a href=&quot;http://sharethis.com&quot;&gt;sharethis.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&quot;enter image description here&quot; class=&quot;center&quot; src=&quot;http://cs624522.vk.me/v624522884/db19/L07GcyIR2Qs.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;ColorGame via ErhoSen&quot; class=&quot;center&quot; src=&quot;http://erhosen.github.io/projects/colorgame/pics/share.jpg&quot; /&gt;&lt;/p&gt;
 &lt;h1&gt;&lt;a href=&quot;http://erhosen.github.io/projects/colorgame&quot;&gt;Have fun!&lt;/a&gt;&lt;/h1&gt;</content>
   </entry>
   <entry xml:base="http://erhosen.github.io/feed.atom">

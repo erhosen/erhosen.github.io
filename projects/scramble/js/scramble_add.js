@@ -47,8 +47,9 @@ document.getElementById("button").onclick = function() {
     var B = []; // Array of scrambled values
 
     for(var i=0; i<sequence.length; i++){
-        var res = scramble(sequence[i], sdwig_register1[2], sdwig_register1[6], sdwig_register1[11]);
-        sdwig_register1.unshift(res); // add scrambled value to the first place in our register
+        var res1 = scramble(sdwig_register1[2], sdwig_register1[6], sdwig_register1[11]);
+        var res = scramble(sequence[i], res1);
+        sdwig_register1.unshift(res1); // add scrambled value to the first place in our register
         sdwig_register1.pop(); // remove last element from register, because we don't need it anymore
         B.push(res); // save result in B
     }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Самосинхронизирующийся скремблер</title>
+</head>
+<body>
+<img src="img/zadanie.png">
+<br>
+<img src="img/zadanie1_sync.png">
+<h1> Самосинхронизирующийся скремблер </h1>
+<form name="myForm">
+    <p> Последовательность 0 и 1
+        <input type="text" id="sequence" value="10100000101">
+    </p>
+    <p> Длина последовательности K
+        <input type="text" id="k" value="10">
+    </p>
+    <input type="button" id="button" value="click"/><input type="button" id="generate" value="Сгенерировать"/>
+</form>
+
+<h3 id="scrambled"></h3>
+<h3 id="descrambled"></h3>
+
+<script src="js/scramble_sync.js"></script>
+</body>
+</html>

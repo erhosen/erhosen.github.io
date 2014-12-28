@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Аддитивный скремблер</title>
+</head>
+<body>
+<img src="img/zadanie.png">
+<br>
+<img src="img/zadanie2_add.png">
+<h1>Аддитивный скремблер</h1>
+<form name="myForm">
+    <p> Последовательность 0 и 1
+        <input type="text" id="sequence" value="1001000100001">
+    </p>
+    <p> Длина последовательности K
+        <input type="text" id="k" value="12">
+    </p>
+    <p> Исходное значение сдвигового регистра
+        <input type="text" id="sdwig" value="110001010001">
+    </p>
+    <input type="button" id="button" value="click"/><input type="button" id="generate" value="Сгенерировать"/>
+</form>
+
+<h3 id="scrambled"></h3>
+<h3 id="descrambled"></h3>
+
+<script src="js/scramble_add.js"></script>
+</body>
+</html>

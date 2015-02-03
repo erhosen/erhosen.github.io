@@ -89,6 +89,7 @@ else:
 &lt;/ul&gt;
 &lt;h3&gt;Successfull accomplishment without Certificate:&lt;/h3&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud304&quot;&gt;Intro to HTML and CSS&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud775&quot;&gt;How to Use Git and GitHub&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud032&quot;&gt;Data Wrangling with MongoDB&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs046&quot;&gt;Intro to Java Programming&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
@@ -99,13 +100,14 @@ else:
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs313&quot;&gt;Intro to Theoretical Computer Science&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs259&quot;&gt;Software Debugging&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/cs258&quot;&gt;Software Testing&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.udacity.com/course/ud804&quot;&gt;JavaScript Basics&lt;/a&gt; from &lt;strong&gt;Udacity&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.lynda.com/JavaScript-tutorials/JavaScript-Essential-Training/81266-2.html&quot;&gt;JavaScript Essential Training&lt;/a&gt; from &lt;strong&gt;Lynda&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.lynda.com/Python-tutorials/Code-Clinic-Python/163752-2.html&quot;&gt;Code Clinic: Python&lt;/a&gt; from &lt;strong&gt;Lynda&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/python-fundamentals&quot;&gt;Python Fundamentals&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/python-beyond-basics&quot;&gt;Python - Beyond the Basics&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;http://www.pluralsight.com/courses/description/unit-testing-python&quot;&gt;Unit Testing with Python&lt;/a&gt; from &lt;strong&gt;Pluralsight&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/foundational-flask-creating-your-own-static-blog-generator&quot;&gt;Foundational Flask&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt; &lt;a href=&quot;https://www.evernote.com/shard/s278/nl/35476238/6a35a5a3-98ca-40a9-9cf1-cae0c5faac46/&quot;&gt;[Evernote]&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/django-unchained&quot;&gt;Django Unchained&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt; &lt;a href=&quot;https://www.evernote.com/shard/s278/nl/35476238/d83b09e8-cec7-460e-b0e3-b1f0446ee44f/&quot;&gt;[Evernote]&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/foundational-flask-creating-your-own-static-blog-generator&quot;&gt;Foundational Flask&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/courses/django-unchained&quot;&gt;Django Unchained&lt;/a&gt; from &lt;strong&gt;Tuts+&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;My &lt;a href=&quot;http://www.codecademy.com/microSlayer24218&quot;&gt;CodeCademy&lt;/a&gt;  Account&lt;/p&gt;
 &lt;p&gt;My &lt;a href=&quot;http://www.checkio.org/user/jessusy/&quot;&gt;Checkio&lt;/a&gt; Account&lt;/p&gt;

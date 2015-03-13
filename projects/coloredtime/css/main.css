@@ -1,0 +1,15 @@
+#time {
+    width: 300px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+
+    font-size: 60px;
+    font-family: Menlo, Monaco, Consolas, "Courier New", sans-serif;
+}

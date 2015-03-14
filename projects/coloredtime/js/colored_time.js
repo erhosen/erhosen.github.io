@@ -1,3 +1,29 @@
+function changeMusicState(){
+    var player = $("#music-control");
+    var audio = $("#music")[0];
+    if (player.hasClass("music-on")){
+        $.cookie("sound", "off");
+        audio.pause();
+    } else {
+        $.cookie("sound", "on");
+        audio.load();
+        audio.play();
+    }
+    player.toggleClass('music-on');
+}
+
+function initMusic() {
+    var audio = document.getElementById("music");
+    audio.volume = 0.3;
+    var soundCookie = $.cookie("sound");
+    if (soundCookie == undefined || soundCookie == "on"){
+        $("#music-control").toggleClass('music-on');
+        audio.play();
+    }
+}
+
+// http://ruszen.me/higloss.mp3
+
 function invertColor(hexTripletColor) {
     var color = hexTripletColor;
     color = color.substring(1);           // remove #
@@ -16,18 +42,14 @@ function format(t){
     return t;
 }
 
-function correctTime(now){
-    seconds = now.getSeconds();
-    minutes = now.getMinutes();
-    hours = now.getHours();
-    return "#" + format(hours) + format(minutes) + format(seconds);
-}
+$(document).ready(function(){
+    initMusic();
 
-function colored_time() {
-    var body_element = document.body;
-    var hours_element = document.getElementById("hours");
-    var minutes_element = document.getElementById("minutes");
-    var seconds_element = document.getElementById("seconds");
+    var body_element = $(document.body);
+    var hours_element = $("#hours");
+    var minutes_element = $("#minutes");
+    var seconds_element = $("#seconds");
+    var color = $("#color");
     interval = setInterval(function () {
         var now = new Date(Date.now());
 
@@ -36,13 +58,12 @@ function colored_time() {
         var seconds = format(now.getSeconds());
         var formatted = "#" + hours + minutes + seconds;
 
-        hours_element.innerHTML = hours;
-        minutes_element.innerHTML = minutes;
-        seconds_element.innerHTML = seconds;
+        hours_element.html(hours);
+        minutes_element.html(minutes);
+        seconds_element.html(seconds);
+        color.html(formatted);
 
-        body_element.setAttribute("bgcolor", formatted);
-        body_element.setAttribute("text", invertColor(formatted));
+        body_element.attr("bgcolor", formatted);
+        body_element.attr("text", invertColor(formatted));
     }, 1000);
-}
-
-colored_time();
+});

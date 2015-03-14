@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>ColoredTime via ErhoSen</title>
     <link rel="stylesheet" href="css/main.css"/>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="//w.sharethis.com/button/buttons.js"></script>
     <script type="text/javascript">stLight.options({publisher: "479e7564-fad1-42ac-8b87-46c30280f4ff", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
     <meta property="og:title" content="ColoredTime" />
     <meta property="og:url" content="http://erhosen.github.io/projects/coloredtime" />
@@ -14,8 +15,12 @@
 </head>
 <body bgcolor="#5f9ea0" text="#d2b48c">
 
-<div id="time" align="center" onclick="hide()">
-    #<b id="hours" class="k">00</b>:<b id="minutes">00</b>:<b id="seconds">00</b>
+<audio id="music" src="http://ruszen.me/higloss.mp3" loop></audio>
+<span id="music-control" class="fa fa-music fa-3" onclick="changeMusicState()"></span>
+
+<div id="time" align="center">
+    <b id="hours" class="k">00</b>:<b id="minutes">00</b>:<b id="seconds">00</b>
+    <p id="color"></p>
 </div>
 
 <div class="share-block">
@@ -26,6 +31,8 @@
         <span class='st__hcount sh' displayText=''></span>
     </div>
 </div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script src="js/colored_time.js"></script>
 
 <!-- Google Analytics -->
@@ -39,6 +46,5 @@
     ga('send', 'pageview');
 </script>
 <!-- End Google Analytics -->
-
 </body>
 </html>

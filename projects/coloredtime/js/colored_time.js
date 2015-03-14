@@ -24,13 +24,22 @@ function correctTime(now){
 }
 
 function colored_time() {
-    body_element = document.body;
-    time_element = document.getElementById("time");
-    console.log(time_element);
+    var body_element = document.body;
+    var hours_element = document.getElementById("hours");
+    var minutes_element = document.getElementById("minutes");
+    var seconds_element = document.getElementById("seconds");
     interval = setInterval(function () {
         var now = new Date(Date.now());
-        var formatted = correctTime(now);
-        time_element.innerHTML = formatted;
+
+        var hours = format(now.getHours());
+        var minutes = format(now.getMinutes());
+        var seconds = format(now.getSeconds());
+        var formatted = "#" + hours + minutes + seconds;
+
+        hours_element.innerHTML = hours;
+        minutes_element.innerHTML = minutes;
+        seconds_element.innerHTML = seconds;
+
         body_element.setAttribute("bgcolor", formatted);
         body_element.setAttribute("text", invertColor(formatted));
     }, 1000);

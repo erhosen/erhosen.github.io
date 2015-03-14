@@ -8,21 +8,23 @@
     <script type="text/javascript">stLight.options({publisher: "479e7564-fad1-42ac-8b87-46c30280f4ff", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
     <meta property="og:title" content="ColoredTime" />
     <meta property="og:url" content="http://erhosen.github.io/projects/coloredtime" />
-    <meta property="og:image" content="http://erhosen.github.io/projects/coloredtime/pics/game.png" />
+    <meta property="og:image" content="http://erhosen.github.io/projects/coloredtime/pics/time.gif" />
     <meta property="og:description" content="Every second another color!" />
     <meta property="og:site_name" content="ColoredTime" />
 </head>
 <body bgcolor="#5f9ea0" text="#d2b48c">
 
-<div id="time" align="center">COLORED TIME</div>
-
-<div class="olo">
-<div class="share">
-    <span class='st_facebook_large'></span>
-    <span st_via=Erho_Sen class='st_twitter_large' displayText='Tweet'></span>
-    <span class='st_vkontakte_large'></span>
-    <span class='st__hcount' displayText=''></span>
+<div id="time" align="center" onclick="hide()">
+    #<b id="hours" class="k">00</b>:<b id="minutes">00</b>:<b id="seconds">00</b>
 </div>
+
+<div class="share-block">
+    <div class="share">
+        <span class='st_facebook_large sh'></span>
+        <span st_via=Erho_Sen class='st_twitter_large sh'></span>
+        <span class='st_vkontakte_large sh'></span>
+        <span class='st__hcount sh' displayText=''></span>
+    </div>
 </div>
 <script src="js/colored_time.js"></script>
 

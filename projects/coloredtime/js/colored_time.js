@@ -23,17 +23,17 @@ function correctTime(now){
     return "#" + format(hours) + format(minutes) + format(seconds);
 }
 
-$(document).ready(function(){
-    // prepare color screen
-    body_element = $(document.body);
-    time_element = $("#time");
-    interval = setInterval(function() {
+function colored_time() {
+    body_element = document.body;
+    time_element = document.getElementById("time");
+    console.log(time_element);
+    interval = setInterval(function () {
         var now = new Date(Date.now());
         var formatted = correctTime(now);
-        time_element.html(formatted);
-        console.log(invertColor(formatted));
-        //time_element.css('color', invertColor(formatted));
-        body_element.attr("bgcolor", formatted).attr("text", invertColor(formatted));
+        time_element.innerHTML = formatted;
+        body_element.setAttribute("bgcolor", formatted);
+        body_element.setAttribute("text", invertColor(formatted));
     }, 1000);
+}
 
-});
+colored_time();

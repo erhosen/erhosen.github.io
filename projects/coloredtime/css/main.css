@@ -13,3 +13,24 @@
     font-size: 60px;
     font-family: Menlo, Monaco, Consolas, "Courier New", sans-serif;
 }
+
+.olo {
+    text-align: center;
+}
+
+.share {
+    position:absolute;
+    width:300px;
+    bottom:15px;
+    /*right:25%;*/
+    left:50%;
+    margin-left:-150px;
+}
+
+span {
+    opacity: 0.8;
+}
+
+span:hover {
+    opacity: 1;
+}

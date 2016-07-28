@@ -47,39 +47,37 @@
 <p>Core idea of the game i have found on chinese web-site, but i can't find the link on it (strongly sorry!). All code has been written by myself, and sources are available in my <a href="https://github.com/ErhoSen/ColorGame">GitHub repo</a>.</p>
 <h2>Developing</h2>
 <p>All the magic happens in two functions:</p>
-<div class="codehilite"><pre><span class="kd">function</span> <span class="nx">changeColor</span><span class="p">(</span><span class="nx">master</span><span class="p">){</span>
-    <span class="kd">var</span> <span class="nx">max_ind</span> <span class="o">=</span> <span class="nx">master</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">max</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nb">Math</span><span class="p">,</span> <span class="nx">master</span><span class="p">));</span>
-    <span class="kd">var</span> <span class="nx">c</span> <span class="o">=</span> <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">];</span>
-    <span class="nx">c</span> <span class="o">+=</span> <span class="nx">k</span><span class="o">*</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">10</span><span class="p">;</span>
-    <span class="k">if</span> <span class="p">(</span><span class="nx">c</span> <span class="o">&gt;</span> <span class="mi">255</span><span class="p">){</span>
-        <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">]</span> <span class="o">-=</span> <span class="p">(</span><span class="nx">k</span><span class="o">*</span><span class="mi">5</span> <span class="o">+</span> <span class="mi">10</span><span class="p">);</span>
-    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-        <span class="nx">master</span><span class="p">[</span><span class="nx">max_ind</span><span class="p">]</span> <span class="o">=</span> <span class="nx">c</span><span class="p">;</span>
-    <span class="p">}</span>
-    <span class="k">return</span> <span class="nx">master</span><span class="p">;</span>
-<span class="p">}</span>
+<pre class="codehilite"><code class="language-javascript">function changeColor(master){
+    var max_ind = master.indexOf(Math.max.apply(Math, master));
+    var c = master[max_ind];
+    c += k*5 + 10;
+    if (c &gt; 255){
+        master[max_ind] -= (k*5 + 10);
+    } else {
+        master[max_ind] = c;
+    }
+    return master;
+}
 
-<span class="kd">function</span> <span class="nx">getRandomColorPair</span><span class="p">()</span> <span class="p">{</span>
-    <span class="kd">var</span> <span class="nx">resulted_colors</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
-    <span class="c1">//generate random red, green and blue intensity</span>
-    <span class="kd">var</span> <span class="nx">rgb</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Array</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
-    <span class="nx">rgb</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
-    <span class="nx">rgb</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
-    <span class="nx">rgb</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nx">getRandomInt</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">255</span><span class="p">);</span>
-    <span class="nx">resulted_colors</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;rgb(&quot;</span> <span class="o">+</span> <span class="nx">rgb</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span><span class="p">;</span>
-    <span class="nx">resulted_colors</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;rgb(&quot;</span> <span class="o">+</span> <span class="nx">changeColor</span><span class="p">(</span><span class="nx">rgb</span><span class="p">).</span><span class="nx">join</span><span class="p">(</span><span class="s2">&quot;,&quot;</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;)&quot;</span><span class="p">;</span>
+function getRandomColorPair() {
+    var resulted_colors = new Array(2);
+    //generate random red, green and blue intensity
+    var rgb = new Array(3);
+    rgb[0] = getRandomInt(0, 255);
+    rgb[1] = getRandomInt(0, 255);
+    rgb[2] = getRandomInt(0, 255);
+    resulted_colors[0] = &quot;rgb(&quot; + rgb.join(&quot;,&quot;) + &quot;)&quot;;
+    resulted_colors[1] = &quot;rgb(&quot; + changeColor(rgb).join(&quot;,&quot;) + &quot;)&quot;;
 
-    <span class="k">return</span> <span class="nx">resulted_colors</span><span class="p">;</span>
-<span class="p">}</span>
-</pre></div>
+    return resulted_colors;
+}</code></pre>
 
 
 <p>Logic is simple: we randomly generate a set of 3 numbers, which represents 1 color. Next, we change the biggest number(<em>b_num</em>) by <em>c</em>. </p>
-<div class="codehilite"><pre>If (b_num + c) &gt; 255
+<pre class="codehilite"><code>If (b_num + c) &gt; 255
     b_num-=  c
 else:
-    b_num+= c
-</pre></div>
+    b_num+= c</code></pre>
 
 
 <p>The magic number <em>c</em> depends on the current level, and the higher the level, the less the coefficient <em>c</em>.</p>

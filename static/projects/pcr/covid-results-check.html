@@ -11,9 +11,6 @@
 		
 <meta name="robots" content="index, follow">
 <meta name="description" content="Проверка результатов тестирования">
-<script async="" src="./covid-results-check-files/fbevents.js"></script><script type="text/javascript" async="" src="./covid-results-check-files/analytics.js"></script><script type="text/javascript" async="" src="./covid-results-check-files/ba.js"></script><script type="text/javascript" async="" src="./covid-results-check-files/recaptcha__ru.js" crossorigin="anonymous" integrity="sha384-P5stg3UxXNqLo2ynKp8LkbP+sAFJef6sTlvM9IpjenpkwWLpvRhhtADWEkZPfA1u"></script><script async="" src="./covid-results-check-files/gtm.js"></script><script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if ((ieVersion = getIeVersion()) > 0){cl += " bx-ie bx-ie" + ieVersion;if (ieVersion > 7 && ieVersion < 10 && !isDoctype()){cl += " bx-quirks";}}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Gecko/.test(ua)){cl += " bx-firefox";}if (/Macintosh/i.test(ua)){cl += " bx-mac";}ht.className = htc ? htc + " " + cl : cl;function isDoctype(){if (d.compatMode){return d.compatMode == "CSS1Compat";}return d.documentElement && d.documentElement.clientHeight;}function getIeVersion(){if (/Opera/i.test(ua) || /Webkit/i.test(ua) || /Firefox/i.test(ua) || /Chrome/i.test(ua)){return -1;}var rv = -1;if (!!(w.MSStream) && !(w.ActiveXObject) && ("ActiveXObject" in w)){rv = 11;}else if (!!d.documentMode && d.documentMode >= 10){rv = 10;}else if (!!d.documentMode && d.documentMode >= 9){rv = 9;}else if (d.attachEvent && !/Opera/.test(ua)){rv = 8;}if (rv == -1 || rv == 8){var re;if (n.appName == "Microsoft Internet Explorer"){re = new RegExp("MSIE ([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}else if (n.appName == "Netscape"){rv = 11;re = new RegExp("Trident/.*rv:([0-9]+[\.0-9]*)");if (re.exec(ua) != null){rv = parseFloat(RegExp.$1);}}}return rv;}})(window, document, navigator);</script>
-
-
 <link href="./covid-results-check-files/core.css" type="text/css" rel="stylesheet">
 <link href="./covid-results-check-files/styles.css" type="text/css" data-template-style="true" rel="stylesheet">
 <link href="./covid-results-check-files/icons.css" type="text/css" data-template-style="true" rel="stylesheet">
@@ -105,7 +102,8 @@
 
 <div class="status-block">
 	<div class="block-container status-container">
-        <div class="result-status  svg-icon">
+        <div class="result-status">				
+        	<img src="https://dnkom.ru/local/templates/dnk4/img/icons/checkresult/right.svg" alt="">
 			<div class="item-info">
 									<div class="item-title">Справка действительна</div>
 					<div class="item-desc">The document is valid</div>

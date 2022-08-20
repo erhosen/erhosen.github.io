@@ -13,7 +13,7 @@
     <published>2014-12-08T00:00:00Z</published>
     <link href="http://erhosen.github.io/blog/colorgame/" />
     <author>
-      <name>Vladimir Vyazovetskov</name>
+      <name>Vladimir Viazovetskov</name>
     </author>
     <content type="html">&lt;p&gt;&lt;img alt=&quot;enter image description here&quot; class=&quot;center&quot; src=&quot;http://erhosen.github.io/projects/colorgame/pics/game.jpg&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;If you looked into the &lt;a href=&quot;http://erhosen.github.io/blog/courses/&quot;&gt;course&lt;/a&gt; section, you've probably noticed that I take a lot of them regularly. &lt;/p&gt;
@@ -70,7 +70,7 @@ else:
     <published>2014-10-26T00:00:00Z</published>
     <link href="http://erhosen.github.io/blog/courses/" />
     <author>
-      <name>Vladimir Vyazovetskov</name>
+      <name>Vladimir Viazovetskov</name>
     </author>
     <content type="html">&lt;h1&gt;Courses and Certificates&lt;/h1&gt;
 &lt;h3&gt;Successful accomplishment with Certificate:&lt;/h3&gt;
@@ -121,7 +121,7 @@ else:
     <published>2014-10-18T00:00:00Z</published>
     <link href="http://erhosen.github.io/blog/about/" />
     <author>
-      <name>Vladimir Vyazovetskov</name>
+      <name>Vladimir Viazovetskov</name>
     </author>
     <content type="html">&lt;p&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Hi there. My name is Vladimir and I'm a Python back-end developer for web-based distributed systems. This is my blog to write about Python, Java and other trending web-technologies and programming languages. Occasionally I may repost other articles that brought my attention and I'd like to share with you.&lt;/p&gt;
 &lt;p&gt;If you are a potential employer you also may be interested to see a progress of my projects and notice software development courses I attend from leading universities.&lt;/p&gt;
